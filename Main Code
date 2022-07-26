@@ -1,0 +1,7 @@
+def readable_timedelta(days):
+    weeks = days // 7
+    days % 7
+    return '{} week(s) and {} day(s)'.format(weeks, days)
+
+# test your function
+print(readable_timedelta(365))
